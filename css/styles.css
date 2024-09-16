@@ -1,0 +1,170 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #434455;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.logo-part {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-end {
+  color: #f4f4fd;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nav-links .link {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.nav-links .link:hover,
+.link:focus,
+.link:active {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+.contact-links .link {
+  text-decoration: none;
+  font-weight: 400;
+  color: #434455;
+}
+.contact-links .link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+.main-page {
+  background-color: #2e2f42;
+}
+
+.main-page .title {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+.title-page {
+  background-color: #ffffff;
+}
+
+.title-page-team {
+  background: #f4f4fd;
+}
+.title-page-team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.images {
+  background-color: #ffffff;
+}
+
+.title-page .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  color: #2e2f42;
+}
+
+.title-page .name {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.title-page .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #434455;
+}
+
+.title-page-team {
+  background-color: #f4f4fd;
+}
+.title-page-team .background {
+  color: #f4f4fd;
+}
+.background .link {
+  background-color: #ffffff;
+  color: #434455;
+}
+
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+p {
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+.p-end {
+  color: #f4f4fd;
+}
