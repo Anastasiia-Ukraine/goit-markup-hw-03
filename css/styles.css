@@ -48,7 +48,6 @@ body {
 .title-container {
   display: flex;
   align-items: center;
-  padding: 32px 0;
 }
 .title-items {
   padding-top: 120px;
@@ -200,10 +199,6 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.visually-hidden,
-.title-feature-item {
-  margin-bottom: 8px;
-}
 
 .title-page-team {
   background: #f4f4fd;
@@ -217,6 +212,8 @@ ol {
   color: #2e2f42;
   letter-spacing: 0.02em;
   padding-top: 120px;
+  padding-bottom: 72px;
+  margin-bottom: 72px;
   margin-bottom: 8px;
 }
 img {
@@ -237,6 +234,7 @@ img {
   color: #2e2f42;
   padding-top: 120px;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 .title-page-item .link {
   display: flex;
@@ -263,7 +261,7 @@ img {
   padding-bottom: 8px;
 }
 
-.title-items {
+.title-featurse {
   width: calc((100% - 72px) / 4);
 }
 
