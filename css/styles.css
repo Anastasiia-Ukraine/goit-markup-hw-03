@@ -223,19 +223,6 @@ img {
   background-color: #ffffff;
 }
 
-.title-page .title,
-.visually-hidden {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  background-color: #ffffff;
-  color: #2e2f42;
-  padding-top: 120px;
-  margin-bottom: 8px;
-}
 .title-page-item .link {
   display: flex;
   align-items: center;
@@ -286,7 +273,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin-bottom: 8px;
 }
 
 .title-page-team .background {
