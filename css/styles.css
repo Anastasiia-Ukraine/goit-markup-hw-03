@@ -268,7 +268,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.visually-hidden {
+.title-page .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -281,7 +281,7 @@ img {
   overflow: hidden;
 }
 
-.team-item {
+.background .team-item {
   width: 232px;
   height: 150px;
 }
