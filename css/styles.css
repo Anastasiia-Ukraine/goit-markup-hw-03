@@ -223,7 +223,8 @@ img {
   background-color: #ffffff;
 }
 
-.title-page .title {
+.title-page .title,
+.visually-hidden {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -233,7 +234,6 @@ img {
   background-color: #ffffff;
   color: #2e2f42;
   padding-top: 120px;
-  margin-bottom: 72px;
   margin-bottom: 8px;
 }
 .title-page-item .link {
@@ -257,6 +257,16 @@ img {
   border-top: none;
 }
 
+.title-page-portfolio .title {
+  margin-bottom: 72px;
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 .title-item {
   padding-bottom: 8px;
 }
