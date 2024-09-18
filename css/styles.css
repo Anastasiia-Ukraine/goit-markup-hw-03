@@ -205,8 +205,7 @@ ol {
   background: #f4f4fd;
 }
 .page-team-item {
-  padding-top: 0;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 .title-page-team .title {
   font-weight: 700;
@@ -321,10 +320,6 @@ img {
 .background .link {
   background-color: #ffffff;
   color: #434455;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 32px;
   border-radius: 0 0 4px 4px;
   width: 264px;
   height: 380px;
