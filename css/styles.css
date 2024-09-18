@@ -58,12 +58,16 @@ body {
   display: flex;
 }
 .title-items .name-item {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .title-page-container {
   padding: 32px 0;
 }
+.title-page .features {
+  margin-bottom: 8px;
+}
+
 h1,
 h2,
 h3,
@@ -277,21 +281,16 @@ img {
   overflow: hidden;
 }
 
-.title-page-team .background {
-  display: flex;
-  gap: 24px;
-  width: 264px;
-  height: 380px;
-}
 .team-item {
-  padding: 32px 0;
+  width: 232px;
+  height: 150px;
 }
 .background .name {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .title-page .description {
@@ -360,8 +359,4 @@ p {
   color: #f4f4fd;
   max-width: 264px;
   padding-bottom: 100px;
-}
-
-h2 {
-  margin-bottom: 8px;
 }
