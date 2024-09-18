@@ -241,7 +241,10 @@ img {
   height: 120px;
   border-top: none;
 }
-
+.title-page-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .title-page-portfolio .title {
   margin-bottom: 72px;
   margin-top: 120px;
@@ -252,8 +255,9 @@ img {
   text-align: center;
   color: #2e2f42;
 }
-.title-item {
-  padding-bottom: 8px;
+
+.title-page-item .title-item {
+  margin-bottom: 8px;
 }
 
 .title-featurse {
