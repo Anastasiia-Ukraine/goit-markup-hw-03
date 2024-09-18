@@ -61,9 +61,6 @@ body {
   margin-bottom: 8px;
 }
 
-.title-page-container {
-  padding: 32px 0;
-}
 .title-page .features {
   margin-bottom: 8px;
 }
@@ -207,6 +204,10 @@ ol {
 .title-page-team {
   background: #f4f4fd;
 }
+.page-team-item {
+  padding-top: 0;
+  padding-bottom: 32px;
+}
 .title-page-team .title {
   font-weight: 700;
   font-size: 36px;
@@ -281,16 +282,16 @@ img {
   overflow: hidden;
 }
 
-.background .team-item {
-  width: 232px;
-  height: 150px;
-}
 .background .name {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .title-page .description {
@@ -325,7 +326,6 @@ img {
   flex-direction: column;
   gap: 32px;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
 }
