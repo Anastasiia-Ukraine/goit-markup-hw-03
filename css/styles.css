@@ -170,6 +170,7 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .title-page .visually-hidden {
   position: absolute;
   width: 1px;
@@ -190,9 +191,6 @@ ol {
   width: calc((100% - 72px) / 4);
 }
 
-.title-page .features {
-  margin-bottom: 8px;
-}
 .title-items .name-item {
   margin-bottom: 8px;
 }
