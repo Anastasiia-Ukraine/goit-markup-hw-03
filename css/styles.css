@@ -120,26 +120,21 @@ ol {
 /*section-1*/
 .main-page {
   background-color: #2e2f42;
-  padding: 188px 0;
-}
-.main-container {
-  height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-page .title {
-  color: #fff;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  width: 496px;
-  padding-top: 190px;
-  padding-bottom: 45px;
-  display: flex;
-  align-items: center;
+  color: #ffffff;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -172,7 +167,6 @@ ol {
 
 .title-page {
   background-color: #ffffff;
-  padding: 120px 0;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -189,11 +183,7 @@ ol {
   overflow: hidden;
 }
 .title-items {
-  padding-top: 120px;
-  padding-bottom: 120px;
   gap: 24px;
-  justify-content: flex-start;
-  width: calc((100%-72px) / 4);
   display: flex;
 }
 .title-featurse {
@@ -220,13 +210,10 @@ ol {
 
 .title-page-team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-.title-page-team .description {
-  text-align: center;
-}
-.page-team-item {
-  padding: 32px 0;
-}
+
 .title-page-team .title {
   font-weight: 700;
   font-size: 36px;
@@ -235,16 +222,13 @@ ol {
   text-transform: capitalize;
   color: #2e2f42;
   letter-spacing: 0.02em;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
-.title-page-team {
-  background-color: #f4f4fd;
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 120px 0;
+.title-page-team .description {
+  text-align: center;
+}
+.page-team-item {
+  padding: 32px 0;
 }
 
 .title-page-team .background {
@@ -259,12 +243,7 @@ ol {
 }
 .background {
   display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   gap: 24px;
-  justify-content: center;
-  margin-bottom: 120px;
 }
 .background .name {
   font-weight: 500;
@@ -288,7 +267,8 @@ ol {
 }
 .title-page-portfolio .title {
   margin-bottom: 72px;
-  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -308,7 +288,6 @@ ol {
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 .portfolio-item {
   padding: 32px 16px;
@@ -327,17 +306,36 @@ ol {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.p-end {
-  color: #f4f4fd;
-  max-width: 264px;
-  padding-bottom: 100px;
-}
+
 .logo {
   margin-bottom: 16px;
   display: inline-block;
-  padding-top: 100px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
-.logo,
+
+.logo-end {
+  color: #f4f4fd;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.p-end {
+  color: #f4f4fd;
+  max-width: 264px;
+}
+
+/*--------*/
+
 .logo-main {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -351,14 +349,6 @@ ol {
 
 .logo-part {
   color: #2e2f42;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.logo-end {
-  color: #f4f4fd;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
